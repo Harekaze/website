@@ -1,0 +1,2 @@
+User-agent: Harekaze/1.0.0
+Allow: /secret/*
