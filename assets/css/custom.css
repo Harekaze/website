@@ -1,0 +1,191 @@
+/* Font Settings */
+@font-face {
+    font-family: "Kazesawa-Regular";
+    src: url("/assets/fonts/Kazesawa-Regular.woff"), url("/assets/fonts/Kazesawa-Regular.ttf");
+}
+
+@font-face {
+    font-family: "LightNovelPop";
+    src: url("/assets/fonts/LightNovelPop.otf");
+}
+
+/* Global Settings */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 8px;
+}
+
+body {
+    line-height: 1.7em;
+    color: #7f8c8d;
+    font-size: 16px;
+}
+
+html, body, body section {
+    font-family: 'Kazesawa-Regular', Meiryo !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+/* Layout */
+.center {
+    text-align: center;
+}
+
+.right {
+    float: right;
+}
+
+/* Image */
+img[alt='Harekaze logo'] {
+    display: block;
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: 50%;
+    margin: auto;
+}
+
+img[alt='Y467'] {
+    display: block;
+    max-width: 600px;
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+img[alt='logo badge'] {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+    border-radius: 100px;
+}
+
+img[alt='CC BY-NC-SA'] {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Font style */
+deep-blue {
+    color: #081388;
+    display: block;
+    margin: 1em;
+    font-family: 'LightNovelPop' !important;
+}
+
+deep-blue span {
+    white-space: nowrap;
+}
+
+water-blue {
+    color: #1FB7F7;
+    display: inline;
+}
+
+.dash {
+    font-family: 'Kazesawa-Regular', Meiryo !important;
+}
+
+h2 {
+    color: #081388;
+    font-family: 'LightNovelPop' !important;
+}
+
+h3 {
+    color: #1FB7F7;
+    font-family: 'LightNovelPop' !important;
+}
+
+/* Header */
+header {
+    background: #081388;
+    background: -moz-linear-gradient(top, #081388 0%, #2989d8 50%, #1FB7F7 100%);
+    background: -webkit-linear-gradient(top, #081388 0%, #2989d8 50%, #1FB7F7 100%);
+    background: linear-gradient(to bottom, #081388 0%, #2989d8 50%, #1FB7F7 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#081388', endColorstr='#1FB7F7', GradientType=0);
+    z-index: 1;
+    overflow: hidden;
+    width: 100%;
+    height: 80%;
+    top: 0;
+    left: 0;
+    position: fixed !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > div {
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+header h1 {
+    font-family: 'Archivo Black', sans-serif;
+    color: white;
+    padding: 1em 0;
+    line-height: 1em;
+}
+
+ /* Content */
+main {
+    background: url("/assets/images/bg.svg") repeat left top white;
+    position: absolute;
+    top: 80%;
+    width: 100%;
+    min-height: 12%;
+    z-index: 2;
+}
+
+section .container {
+    padding: 50px 30px;
+}
+
+section:nth-child(2n) {
+    color: #345;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+section p {
+    text-indent: 1em;
+}
+
+/* Address */
+address {
+    text-decoration: none;
+    font-style: normal;
+}
+
+address dl * {
+    display: inline-block;
+}
+
+address dt {
+    text-align: right;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+    background: rgba(0,0,0,0.7);
+	font-size: 0.5em;
+}

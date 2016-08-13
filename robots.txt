@@ -1,2 +1,5 @@
 User-agent: Harekaze/1.0.0
 Allow: /secret/*
+
+User-agent: *
+Disallow: /beta-test
