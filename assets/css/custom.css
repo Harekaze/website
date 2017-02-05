@@ -8,6 +8,11 @@
     font-family: "LightNovelPop";
     src: url("/assets/fonts/LightNovelPop.otf");
 }
+@font-face {
+    font-family: "FontAwesome";
+    src: url("/assets/fonts/fontawesome-webfont.woff"), url("/assets/fonts/fontawesome-webfont.ttf");
+}
+
 
 /* Global Settings */
 * {
@@ -105,6 +110,17 @@ h2 {
 h3 {
     color: #1FB7F7;
     font-family: 'LightNovelPop' !important;
+}
+.www::before {
+    display: inline-block;
+    font: normal normal normal 18px/1 FontAwesome;
+    line-height: 0.75em;
+    vertical-align: -15%;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'FontAwesome' !important;
+    content: "\f0ac";
 }
 
 /* Header */
