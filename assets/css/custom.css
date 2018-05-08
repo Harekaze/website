@@ -161,10 +161,13 @@ header h1 {
 main {
     background: url("/assets/images/bg.svg") repeat left top white;
     position: absolute;
-    top: 80%;
     width: 100%;
     min-height: 12%;
     z-index: 2;
+}
+
+header ~ main {
+    top: 80%;
 }
 
 section .container {

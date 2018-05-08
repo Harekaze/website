@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Misaki Akeno">
+    <meta name="Keywords" content="Harekaze">
+    <meta name="Description" content="わたし岬明乃!ブルーマーメイドを目指して海洋学校に入学したけど、 初の実習で乗員が暇つぶしに困ってるの!艦長として晴風のみんなの願い叶えたい!!はれかぜProjectでよーそろー!!!">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta name="google" content="notranslate" />
+    <title>Setup server for Harekaze for iOS - Harekaze</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, max-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/normalize.css">
+    <link rel="stylesheet" href="/assets/css/skeleton.css">
+    <link rel="stylesheet" href="/assets/css/custom.css">
+    <link href='https://fonts.googleapis.com/css?family=Archivo+Black' rel='stylesheet' type='text/css'>
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png">
+    <script>
+    if ('registerElement' in document) {
+      document.registerElement('water-blue', {extends: "span"});
+      document.registerElement('deep-blue', {extends: "p"});
+    }
+    </script>
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1>
+          <deep-blue>
+            Setup server for Harekaze for iOS
+          </deep-blue>
+        </h1>
+        <div class="container center">
+          English / <a href="ja.html">日本語</a>
+        </div>
+      </section>
+      <section>
+          <div class="container">
+            <h2><water-blue>Supported application</water-blue></h2>
+            <ul>
+              <li><a href="https://github.com/Chinachu/Chinachu">Chinachu (gamma)</a></li>
+            </ul>
+            <h2><water-blue>Device requirement</water-blue></h2>
+            <ul>
+              <li>PC (Linux or Windows)</li>
+              <li>Tuners or some accessories for DTV</li>
+            </ul>
+          </div>
+      </section>
+      <section>
+        <div class="container">
+          <h2>Server setup</h2>
+          <h3>Step 1</h3>
+          <p>Build <a href="https://github.com/Chinachu/Chinachu">Chinachu</a> on your machine. For more detail, check a <a href="https://github.com/Chinachu/Chinachu/wiki/Gamma-Installation-V2">wiki page</a>.</p>
+          <h3>Step 2</h3>
+          <p>Open Chinachu page on your browser and check working correctly.</p>
+          <h3>Step 3</h3>
+          <p>Open Harekaze for iOS and select Chinachu server which you built. If you can't get initial setup view, tap ⚙ icon and open configuration view.</p>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <h2>
+            <water-blue>Trouble shooting</water-blue>
+          </h2>  
+          <div class="row">
+            <address class="column">
+              <dl>
+                <dt>GitHub</dt>
+                <dd><a href="https://github.com/Harekaze/Harekaze-iOS/issues?q=is%3Aissue">Check existing Issues</a></dd>
+              </dl>
+              <dl>
+                <dt>Slack</dt>
+                <dd><a href="https://join-harekazeapp-slack.herokuapp.com/">Ask on Slack</a></dd>
+              </dl>
+            </address>
+          </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    Copyright &copy; 2018 Harekaze project. All contents are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.
+  </footer>
+</body>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-81343230-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</html>
